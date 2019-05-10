@@ -1,5 +1,9 @@
 def valid_move?(board, idx)
-  
+  if board[idx].empty?
+    true 
+  else 
+    false
+  end 
 end 
 
 
